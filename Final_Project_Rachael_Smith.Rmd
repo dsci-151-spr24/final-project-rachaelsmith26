@@ -14,3 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 # Proposal 
 
 ***Section 1 - Introduction***
+This project deals with Olympic athletes and there performance in each Olympic events. In this data set we will be comparing the participation of athletes and the metals that they receive for there country in each Olympic year. I got the data set from **https://www.kaggle.com/datasets**. The dataset includes data on the city and year of the Olympic edition, sports, disciplines, participating athletes, National Olympic Committee (NOC) codes, gender of the athletes, specific events, event genders, and the type of medal awarded (Gold, Silver, or Bronze). The data set that we will be using is called Olympics. You can find more about the data set by running in your console view(olympics).
+
+***Section 2 - Data***
