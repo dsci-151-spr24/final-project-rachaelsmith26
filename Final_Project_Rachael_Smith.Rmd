@@ -1,0 +1,16 @@
+---
+title: "Final_project_Rachael_Smith"
+author: "Rachael Smith"
+output:
+  html_document:
+    df_print: paged
+date: "2024-03-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Proposal 
+
+***Section 1 - Introduction***
