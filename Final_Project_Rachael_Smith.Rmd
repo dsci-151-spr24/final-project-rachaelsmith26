@@ -1,11 +1,13 @@
 ---
 title: "Final_project_Rachael_Smith"
 author: "Rachael Smith"
+date: "2024-03-09"
 output:
   html_document:
     df_print: paged
-date: "2024-03-09"
+  pdf_document: default
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -18,3 +20,45 @@ This project deals with Olympic athletes and there performance in each Olympic e
 
 ***Section 2 - Data***
 See `/data` folder.
+
+- `variable1`: city 
+- `variable2`: Edition( year of olympics)
+- `variable3`: Sport
+- `variable4`:Discipline(swimming, weight lifting, ect)
+- `variable5`: Athlete (name of athlete)
+- `variable6`: NOC (National Olympic Committee codes)
+- `variable7`: Gender (male or female)
+-`variable8` : Event (100 freestyle, discus, ect.)
+-`variable9` : Event_gender ( m or f )
+
+
+***Section 3 Data analysis plan***
+
+ -   The outcome (response, Y) and predictor (explanatory, X) variables you will use to answer your question.
+ ***The outcome response y is the metals that the athletes brought home for there country. The prediction is the NOC or the country that the athlete is from.***
+
+    -   The comparison groups you will use, if applicable.
+  ***The comparison groups that I could use are gender and discipline***
+  
+
+    -   Very preliminary exploratory data analysis, including some summary statistics and visualizations, along with some explanation on how they help you learn more about your data.
+```{r eval = TRUE, message = FALSE}
+library(tidyverse) 
+library(skimr)
+```
+
+``{r}
+#1 label: Olympics 
+
+skim(olympics)
+```
+       
+        (You can add to these later as you work on your project.)
+
+    -   The method(s) that you believe will be useful in answering your question(s).
+        (You can update these later as you work on your project.)
+ ***The methods that I believe would be useful in answering my question would be a bar graph showing the distribution of metals won for each country that is documented. In addition I think a data table would be useful as well to just see the numbers.***
+
+    -   What results from these specific statistical methods are needed to support your hypothesized answer?
+    
+  ***The results that I need for these specific statistical methods would be that the bigger countries would win more metals overall. So those bigger countires should have taller bars or higher numbers in the data that I recieved.***
