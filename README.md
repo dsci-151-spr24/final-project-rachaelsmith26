@@ -1,39 +1,52 @@
-Project title
+Olympic athletes and metals
 ================
-by your name
+Rachael Smith
 
 ## Summary
 
-Write-up of your project and findings go here. Think of this as the text
-of your presentation. The length should be roughly 5 minutes when read
-out loud. Although pacing varies, a 5-minute speech is roughly 750
-words. To use the word count addin, select the text you want to count
-the words of (probably this is the Summary section of this document, go
-to Addins, and select the `Word count` addin). This addin counts words
-using two different algorithms, but the results should be similar and as
-long as you’re in the ballpark of 750 words, you’re good! The addin will
-ignore code chunks and only count the words in prose.
-
-You can also load your data here and present any analysis results /
-plots, but I strongly urge you to keep that to a minimum (maybe only the
-most important graphic, if you have one you can choose). And make sure
-to hide your code with `echo = FALSE` unless the point you are trying to
-make is about the code itself. Your results with proper output and
-graphics go in your presentation, this space is for a brief summary of
-your project.
+\##This project deals with Olympic athletes and their performance in
+each Olympic event. In this data set we will be comparing the
+participation of athletes and the metals that they receive for their
+country in each Olympic year. I got the data set from
+**<https://www.kaggle.com/datasets>**. The dataset includes data on the
+city and year of the Olympic edition, sports, disciplines, participating
+athletes, National Olympic Committee (NOC) codes, gender of the
+athletes, specific events, event genders, and the type of medal awarded
+(Gold, Silver, or Bronze). The data set that we will be using is called
+Olympics. You can find more about the data set by running in your
+console view(olympics). The variables for this dataset are -
+`variable1`: city `variable2`: Edition( year of olympics) `variable3`:
+Sport `variable4`:Discipline(swimming, weight lifting, ect)`variable5`:
+Athlete (name of athlete) `variable6`: NOC (National Olympic Committee
+codes) `variable7`: Gender (male or female)`variable8` : Event (100
+freestyle, discus, ect.)`variable9` : Event_gender ( m or f ). My
+research questions are as follows. What is the distribution of medals
+won for each country? What is the distribution of medals won for each
+country by men compared to women? What country won the most medals in
+women’s events? The methods that I used to answer my questions are as
+follows. The methods that I used in answering my question would be a bar
+graph showing the distribution of metals won for each country that is
+documented in 2000. Then I used another bar graph to show the
+distribution of the metals won for the United States then split into men
+and women. Then I did a code chunk to show what country won the most
+medals in woman’s events. My findings are as follows. The distribution
+for Olympic medals in 2000 is as follows for the top three. The United
+States was first with 37 gold, 24 silver, and 32 bronze. Russia was
+second with 32 gold, 28 silver, and 28 bronze. China was third with 28
+gold, 16 silver and 14 bronze. In 2012 the women won the most medals for
+the United States. The women took home 58 medals while the men took home
+only 45 medals. In 2016 the woman’s team that took home the most medals
+from the events in Rio is the United States.
 
 ## Presentation
 
-My presentation can be found [here](presentation/presentation.html).
+My presentation can be found [here](https://youtu.be/o-TPpvX8Tio).
 
 ## Data
 
-Include a citation for your data here. See
-<http://libraryguides.vu.edu.au/c.php?g=386501&p=4347840> for guidance
-on proper citation for datasets. If you got your data off the web, make
-sure to note the retrieval date.
+Find open datasets and Machine Learning Projects. Kaggle. (n.d.).
+<https://www.kaggle.com/datasets> Retrieval date 2024-03-09
 
 ## References
 
-List any references here. You should, at a minimum, list your data
-source.
+**<https://www.kaggle.com/datasets>**
