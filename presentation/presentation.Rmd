@@ -1,7 +1,7 @@
 ---
-title: "Presentation title"
-subtitle: "Presentation subtitle (if any)"
-author: "Your Name"
+title: "Olympics Data"
+subtitle: "Athletes and their metals"
+author: "Rachael Smith"
 institute: "Houghton University"
 date: "`r Sys.Date()`"
 output:
@@ -42,26 +42,48 @@ style_xaringan(
 
 class: center, middle
 
-## A statement of the overall goal / research question
+This project deals with Olympic athletes and there performance in each Olympic events. In this data set we will be comparing the participation of athletes and the metals that they receive for there country in each Olympic year. I got the data set from **https://www.kaggle.com/datasets**. The dataset includes data on the city and year of the Olympic edition, sports, disciplines, participating athletes, National Olympic Committee (NOC) codes, gender of the athletes, specific events, event genders, and the type of medal awarded (Gold, Silver, or Bronze). The data set that we will be using is called Olympics. You can find more about the data set by running in your console view(olympics).
 
 ---
 
 class: inverse, center, middle
 
-# Section title
+# Olympic Dataset variables
 
 ---
-
-# Hello World
-
-- Click the `Knit` button to compile your presentation
-
-- Make sure to commit and push all resulting files to your GitHub repo
+- `variable1`: city 
+- `variable2`: Edition( year of olympics)
+- `variable3`: Sport
+- `variable4`:Discipline(swimming, weight lifting, ect)
+- `variable5`: Athlete (name of athlete)
+- `variable6`: NOC (National Olympic Committee codes)
+- `variable7`: Gender (male or female)
+- `variable8` : Event (100 freestyle, discus, ect.)
+- `variable9` : Event_gender ( m or f )
 
 ---
+class: inverse, center, middle
+# Research Questions
 
-class: inverse, middle, center
+---
+- What is the distribution of medals won for each country in 2000?
+- What is the distribution of medals won for United states by men compared to women in 2012?
+- What country won the most medals in woman's events 2016?
+---
+class: inverse, center, middle
+#Methods
+---
+The methods that I used in answering my question would be a bar graph showing the distribution of metals won for each country that is documented in 2000. Then I used another bar graph to show the distribution of the metals won for the United States then split into men and women. Then I did a code chunk to show what country won the most medals in woman's events.
+---
+class: inverse, center, middle
+#Findings
+---
+- The distribution for Olympic medals in 2000 is as follows for the top three. The United States was first with 37 gold, 24 silver, and 32 bronze. Russia was second with 32 gold, 28 silver, and 28 bronze. China was third with 28 gold, 16 silver and 14 bronze. 
 
+- In 2012 the women won the most medals for the United States. The women took home 58 medals while the men took home only 45 medals.
+
+
+- In 2016 the woman's team that took home the most medals from the events in Rio is the United States.
 # Using xaringan
 
 ---

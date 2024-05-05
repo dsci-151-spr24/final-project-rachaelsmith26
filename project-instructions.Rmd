@@ -85,8 +85,7 @@ This is a draft of the introduction section of your project as well as a data an
 
     what are the cases, what are the variables, etc.).
     
-# Introduction 
-***A study conducted to see the data that is collected annually on whether the groundhogs see there shadows. How often do the groundhogs agree on an early spring over the a long winter? This data is provided by  groundhog-day.com. Data has been collected on the groundhog predictions since 1886. You can find out more about the dataset by inspecting their documentation, which you can access by running view(groundhogs) in the Console.***
+
 
 -   **Section 2 - Data:** Place your data in the \`/data\` folder, and add dimensions and codebook to the README in that folder.
     Then print out the output of and codebook to the README in that folder.
